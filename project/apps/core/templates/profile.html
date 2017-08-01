@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>wellcome {{profile}}</h2>
+    <ul>
+    	<li>phone: {{profile.phone}}</li>
+    	<li>email: {{profile.email}}</li>
+    	<li>first_name: {{profile.first_name}}</li>
+    	<li>last_name: {{profile.last_name}}</li>
+    </ul>
+{% endblock %}
