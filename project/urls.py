@@ -20,7 +20,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/docs/', include('rest_framework_docs.urls')),
 
-    url(r'^/', include('project.apps.core.urls')),
+    url(r'^', include('project.apps.core.urls')),
     url(r'^/api/v1/core/', include('project.apps.core.api.urls')),
 
 
